@@ -2,11 +2,11 @@
 dateFromServer=$(curl -v --insecure --silent https://google.com/ 2>&1 | grep Date | sed -e 's/< Date: //')
 biji=`date +"%Y-%m-%d" -d "$dateFromServer"`
 ###########- COLOR CODE -##############
-colornow=$(cat /etc/scvpn/theme/color.conf)
+colornow=$(cat /etc/ssnvpn/theme/color.conf)
 NC="\e[0m"
 RED="\033[0;31m" 
-COLOR1="$(cat /etc/scvpn/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
-COLBG1="$(cat /etc/scvpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"                    
+COLOR1="$(cat /etc/ssnvpn/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
+COLBG1="$(cat /etc/ssnvpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"                    
 ###########- END COLOR CODE -##########
 clear
 BURIQ () {
@@ -127,7 +127,7 @@ echo -e "$COLOR1│${NC}  [ ${green}INFO${NC} ] • Restoring admin data..."
 sleep 1
 cp -r /root/backup/ssnvpn-pro /var/lib/ &> /dev/null
 cp -r /root/backup/.acme.sh /root/ &> /dev/null
-cp -r /root/backup/scvpn /etc/ &> /dev/null
+cp -r /root/backup/ssnvpn /etc/ &> /dev/null
 cp -r /root/backup/xray /etc/ &> /dev/null
 cp -r /root/backup/public_html /home/vps/ &> /dev/null
 cp -r /root/backup/crontab /etc/ &> /dev/null

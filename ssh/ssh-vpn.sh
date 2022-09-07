@@ -83,8 +83,8 @@ apt-get install figlet -y
 apt-get install ruby -y
 gem install lolcat
 
-# set time GMT +8
-ln -fs /usr/share/zoneinfo/Asia/Kuala_Lumpur /etc/localtime
+# set time GMT +7
+ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
 
 # set locale
 sed -i 's/AcceptEnv/#AcceptEnv/g' /etc/ssh/sshd_config

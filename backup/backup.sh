@@ -109,7 +109,7 @@ zip -rP $InputPass $NameUser.zip backup > /dev/null 2>&1
 ##############++++++++++++++++++++++++#############
 LLatest=`date`
 Get_Data () {
-git clone https://github.com/kamunikan/userbackup.git /root/user-backup/ &> /dev/null
+git clone https://github.com/SSHSEDANG4/backupuserssn.git /root/user-backup/ &> /dev/null
 }
 
 Mkdir_Data () {
@@ -129,15 +129,15 @@ mv /root/$NameUser.zip /root/user-backup/$NameUser/
 Save_And_Exit () {
     DATE=$(date +'%d %B %Y')
     cd /root/user-backup
-    git config --global user.email "haha007x0@gmail.com" &> /dev/null
-    git config --global user.name "kamunikan" &> /dev/null
+    git config --global user.email "andriwibowo2222@gmail.com" &> /dev/null
+    git config --global user.name "SSHSEDANG4" &> /dev/null
     rm -rf .git &> /dev/null
     git init &> /dev/null
     git add . &> /dev/null
     git commit -m backup &> /dev/null
     git branch -M main &> /dev/null
-    git remote add origin https://github.com/kamunikan/userbackup
-    git push -f https://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@github.com/kamunikan/userbackup.git &> /dev/null
+    git remote add origin https://github.com/SSHSEDANG4/backupuserssn
+    git push -f https://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@github.com/SSHSEDANG4/backupuserssn.git &> /dev/null
 }
 
 if [ ! -d "/root/user-backup/" ]; then
@@ -152,7 +152,7 @@ sleep 1
 echo -e "$COLOR1│${NC}  [INFO] Processing updating server...... "
 Save_And_Exit
 fi
-link="https://raw.githubusercontent.com/SSHSEDANG4/userbackup/main/$NameUser/$NameUser.zip"
+link="https://raw.githubusercontent.com/SSHSEDANG4/backupuserssn/main/$NameUser/$NameUser.zip"
 sleep 1
 echo -e "$COLOR1│${NC}  [INFO] Backup done "
 sleep 1

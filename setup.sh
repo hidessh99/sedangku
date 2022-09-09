@@ -301,7 +301,6 @@ echo "====================-[ SSNVPN Premium ]-===================="
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt
@@ -336,10 +335,9 @@ echo "   - Change port" | tee -a log-install.txt
 echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""
-echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By ssnvpn ]-==============="
+echo "=============-[ SSH SEDANG NETWORK PRESENT ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt

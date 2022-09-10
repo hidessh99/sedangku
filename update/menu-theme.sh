@@ -73,7 +73,7 @@ echo -e " $COLOR1│$NC"
 echo -e " $COLOR1│$NC  $COLOR1 [00]$NC • GO BACK"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                • WWW.SSHSEDANG.MY.ID •         $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                • WWW.SSHSEDANG.MY.ID •          $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 read -p "  Select Options :  " colormenu 

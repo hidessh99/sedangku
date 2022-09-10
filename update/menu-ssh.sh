@@ -620,7 +620,7 @@ echo -e " $COLOR1┌────────────────────
  $COLOR1│$NC   ${COLOR1}[00]${NC} • GO BACK${NC}                              $COLOR1│$NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}" 
 echo -e "$COLOR1┌────────────────────── BY ───────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}              • WWW.SSHSEDANG.MY.ID •            $COLOR1│$NC"
+echo -e "$COLOR1│${NC}              • WWW.SSHSEDANG.MY.ID •         $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 echo -e ""
 read -p " Select menu :  "  opt

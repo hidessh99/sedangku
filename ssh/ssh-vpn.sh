@@ -265,8 +265,10 @@ sed -i 's@DROPBEAR_BANNER=""@DROPBEAR_BANNER="/etc/issue.net"@g' /etc/default/dr
 
 # download script
 cd /usr/bin
+wget -O speedtest "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/ssh/speedtest_cli.py"
 wget -O xp "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/ssh/xp.sh"
 wget -O auto-set "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/xray/auto-set.sh"
+chmod +x speedtest
 chmod +x xp
 chmod +x auto-set
 cd

@@ -20,6 +20,7 @@ wget -q -O /usr/bin/autoboot "https://raw.githubusercontent.com/SSHSEDANG4/multi
 wget -q -O /usr/bin/menu-tcp "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/update/menu-tcp.sh" && chmod +x /usr/bin/menu-tcp
 wget -q -O /usr/bin/rebootvps "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/corn/rebootvps.sh" && chmod +x /usr/bin/rebootvps
 wget -q -O /usr/bin/menu-dns "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/update/menu-dns.sh" && chmod +x /usr/bin/menu-dns
+wget -q -O /usr/bin/info "https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/update/info.sh" && chmod +x /usr/bin/info
 echo -e " [INFO] Update Successfully"
 sleep 2
 exit

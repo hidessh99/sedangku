@@ -129,7 +129,7 @@ mv /root/$NameUser.zip /root/user-backup/$NameUser/
 Save_And_Exit () {
     DATE=$(date +'%d %B %Y')
     cd /root/user-backup
-    git config --global user.email "andriwibowo2222@gmail.com" &> /dev/null
+    git config --global user.email "sshsedang@gmail.com" &> /dev/null
     git config --global user.name "SSHSEDANG4" &> /dev/null
     rm -rf .git &> /dev/null
     git init &> /dev/null

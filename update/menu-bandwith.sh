@@ -70,7 +70,7 @@ exit 0
 fi
 clear
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC} ${COLBG1}          • INFO BANDWITH USAGE •               ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC} ${COLBG1}          • INFO BANDWITH USAGE •              ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " $COLOR1┌───────────────────────────────────────────────┐${NC}"
 echo -e ""

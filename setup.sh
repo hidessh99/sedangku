@@ -347,7 +347,7 @@ rm /root/update.sh
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 
 echo "" | tee -a log-install.txt
-echo "   >>> About :" | tee -a log-install.txt
+echo "   >>> About " | tee -a log-install.txt
 echo "   - Script Presented By      : SSH SEDANG NETWORK" | tee -a log-install.txt" | tee -a log-install.txt
 echo "   - Contact (Only Text)      : t.me/sshsedang" | tee -a log-install.txt" | tee -a log-install.txt
 echo -e "" | tee -a log-install.txt

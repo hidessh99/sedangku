@@ -264,7 +264,7 @@ menu-set
 
 clear
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│ $NC$COLBG1                 • VPS PANEL •                 $COLOR1 │$NC"
+echo -e "$COLOR1│ $NC$COLBG1               • VPS SETTING •                 $COLOR1 │$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " $COLOR1┌───────────────────────────────────────────────┐${NC}"
 echo -e " $COLOR1│$NC   ${COLOR1}[01]${NC} • RUNNING           ${COLOR1}[05]${NC} • TCP TWEAK"
@@ -283,12 +283,12 @@ echo -e   ""
 case $opt in
 01 | 1) clear ; status ;;
 02 | 2) clear ; nano /etc/issue.net ;;
-03 | 3) clear ; menubandwith ;;
+03 | 3) clear ; mbandwith ;;
 04 | 4) clear ; enabletorrent ;;
 05 | 5) clear ; menu-tcp ;;
 06 | 6) clear ; restart ;;
 07 | 7) clear ; autoboot ;;
-08 | 8) clear ; menuspeed ;;
+08 | 8) clear ; mspeed ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu-set ;;
 esac

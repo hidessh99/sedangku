@@ -331,8 +331,7 @@ echo "   - Auto Delete Expired Account" | tee -a log-install.txt
 echo "   - Fully automatic script" | tee -a log-install.txt
 echo "   - VPS settings" | tee -a log-install.txt
 echo "   - Admin Control" | tee -a log-install.txt
-echo "   - Change port" | tee -a log-install.txt
-echo "   - Restore Data" | tee -a log-install.txt
+echo "   - Backup & Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
 echo ""
 echo "------------------------------------------------------------"

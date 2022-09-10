@@ -346,7 +346,12 @@ rm /root/setup.sh >/dev/null 2>&1
 rm /root/insshws.sh 
 rm /root/update.sh
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
-echo -e "
+
+echo "" | tee -a log-install.txt
+echo "   Information :" | tee -a log-install.txt
+echo "   - Script Presented By      : SSH SEDANG NETWORK" | tee -a log-install.txt" | tee -a log-install.txt
+echo "   - Contact (Only Text)      : t.me/sshsedang" | tee -a log-install.txt" | tee -a log-install.txt
+echo -e "" | tee -a log-install.txt
 "
 echo -ne "[ ${yell}WARNING${NC} ] Do you want to reboot now ? (y/n)? "
 read answer

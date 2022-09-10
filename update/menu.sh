@@ -9,7 +9,10 @@ export RED="\033[0;31m"
 export COLOR1="$(cat /etc/ssnvpn/theme/$colornow | grep -w "TEXT" | cut -d: -f2|sed 's/ //g')"
 export COLBG1="$(cat /etc/ssnvpn/theme/$colornow | grep -w "BG" | cut -d: -f2|sed 's/ //g')"                    
 ###########- END COLOR CODE -##########
-
+tram=$( free -h | awk 'NR==2 {print $2}' )
+uram=$( free -h | awk 'NR==2 {print $3}' )
+ISP=$(curl -s ipinfo.io/org | cut -d " " -f 2-10 )
+CITY=$(curl -s ipinfo.io/city )
 
 
 BURIQ () {
@@ -169,6 +172,8 @@ echo -e "$COLOR1│$NC System Uptime  : $uphours $upminutes $uptimecek"
 else
 echo -e "$COLOR1│$NC System Uptime  : $uphours $upminutes"
 fi
+echo -e "$COLOR1│$NC Memory Usage   : $uram / $tram"
+echo -e "$COLOR1│$NC ISP & City     : $ISP & $CITY"
 echo -e "$COLOR1│$NC Current Domain : $(cat /etc/xray/domain)"
 echo -e "$COLOR1│$NC IP-VPS         : ${COLOR1}$IPVPS${NC}"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"

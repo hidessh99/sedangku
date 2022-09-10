@@ -288,7 +288,7 @@ case $opt in
 05 | 5) clear ; menu-tcp ;;
 06 | 6) clear ; restart ;;
 07 | 7) clear ; autoboot ;;
-07 | 7) clear ; speedtest ;;
+08 | 8) clear ; speedtest ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu-set ;;
 esac

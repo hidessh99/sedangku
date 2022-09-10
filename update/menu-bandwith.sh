@@ -70,7 +70,7 @@ exit 0
 fi
 clear
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC} ${COLBG1}             • INFO PANEL MENU •               ${NC} $COLOR1│$NC"
+echo -e "$COLOR1│${NC} ${COLBG1}          • INFO BANDWITH USAGE •               ${NC} $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e " $COLOR1┌───────────────────────────────────────────────┐${NC}"
 echo -e ""
@@ -82,5 +82,5 @@ echo -e "$COLOR1│${NC}                • WWW.SSHSEDANG.MY.ID •          $CO
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 read -n 1 -s -r -p "  Press any key to back on menu"
-menu
+menu-set
 esac

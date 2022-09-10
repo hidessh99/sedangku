@@ -82,5 +82,5 @@ echo -e "$COLOR1│${NC}                • WWW.SSHSEDANG.MY.ID •          $CO
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}"
 echo -e ""
 read -n 1 -s -r -p "  Press any key to back on menu"
-menu
+menu-set
 esac

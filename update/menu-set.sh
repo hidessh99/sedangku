@@ -283,12 +283,12 @@ echo -e   ""
 case $opt in
 01 | 1) clear ; status ;;
 02 | 2) clear ; nano /etc/issue.net ;;
-03 | 3) clear ; vnstat ;;
+03 | 3) clear ; mbandwith ;;
 04 | 4) clear ; enabletorrent ;;
 05 | 5) clear ; menu-tcp ;;
 06 | 6) clear ; restart ;;
 07 | 7) clear ; autoboot ;;
-08 | 8) clear ; speedtest ;;
+08 | 8) clear ; mspeed ;;
 00 | 0) clear ; menu ;;
 *) clear ; menu-set ;;
 esac

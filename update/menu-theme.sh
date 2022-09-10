@@ -165,7 +165,7 @@ echo -e " $COLOR1│$NC [INFO] TEAM MAGENTA Active Successfully"
 echo -e " $COLOR1│$NC"
 echo -e " $COLOR1└───────────────────────────────────────────────┘${NC}"
 echo -e "$COLOR1┌─────────────────────────────────────────────────┐${NC}"
-echo -e "$COLOR1│${NC}                • WWW.SSHSEDANG.MY.ID •             $COLOR1│$NC"
+echo -e "$COLOR1│${NC}                • WWW.SSHSEDANG.MY.ID •         $COLOR1│$NC"
 echo -e "$COLOR1└─────────────────────────────────────────────────┘${NC}" 
 ;;
 00 | 0)

@@ -300,7 +300,7 @@ echo " "
 echo "====================-[ SSNVPN Premium ]-===================="
 echo ""
 echo "------------------------------------------------------------"
-echo ""
+echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
 echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt

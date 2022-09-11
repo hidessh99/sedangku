@@ -333,24 +333,21 @@ echo "   - VPS settings" | tee -a log-install.txt
 echo "   - Admin Control" | tee -a log-install.txt
 echo "   - Backup & Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
-echo ""
-echo "------------------------------------------------------------"
-echo ""
-echo "=============-[ SSH SEDANG NETWORK PRESENT ]-==============="
-echo -e ""
-echo ""
-echo "" | tee -a log-install.txt
-rm /root/cf.sh >/dev/null 2>&1
-rm /root/setup.sh >/dev/null 2>&1
-rm /root/insshws.sh 
-rm /root/update.sh
-secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
-
 echo "" | tee -a log-install.txt
 echo "   >>> About " | tee -a log-install.txt
 echo "   - Script Presented By      : SSH SEDANG NETWORK" | tee -a log-install.txt" | tee -a log-install.txt
 echo "   - Contact (Only Text)      : t.me/sshsedang" | tee -a log-install.txt" | tee -a log-install.txt
 echo -e "" | tee -a log-install.txt
+echo "------------------------------------------------------------"
+echo ""
+echo "=============-[ SSH SEDANG NETWORK PRESENT ]-==============="
+echo -e ""
+echo ""
+rm /root/cf.sh >/dev/null 2>&1
+rm /root/setup.sh >/dev/null 2>&1
+rm /root/insshws.sh 
+rm /root/update.sh
+secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
 "
 echo -ne "[ ${yell}WARNING${NC} ] Do you want to reboot now ? (y/n)? "
 read answer
@@ -359,4 +356,3 @@ exit 0
 else
 reboot
 fi
-

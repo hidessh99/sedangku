@@ -56,17 +56,17 @@ echo "XRAY Core Vmess / Vless"
 echo "Trojan"
 echo "Progress..."
 sleep 3
-green() { echo -e "\\033[32;1m${*}\\033[0m"; }
-red() { echo -e "\\033[31;1m${*}\\033[0m"; }
-PERMISSION
-if [ "$res" = "Permission Accepted..." ]; then
-green "Permission Accepted.."
-else
-red "Permission Denied!"
-exit 0
-fi
-echo -e "
-"
+#green() { echo -e "\\033[32;1m${*}\\033[0m"; }
+#red() { echo -e "\\033[31;1m${*}\\033[0m"; }
+#PERMISSION
+#if [ "$res" = "Permission Accepted..." ]; then
+#green "Permission Accepted.."
+#else
+#red "Permission Denied!"
+#exit 0
+#fi
+#echo -e "
+#"
 date
 echo ""
 domain=$(cat /root/domain)

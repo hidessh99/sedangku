@@ -337,7 +337,6 @@ echo ""  | tee -a log-install.txt
 echo "   >>> About " | tee -a log-install.txt
 echo "   - Script Presented By      : SSH SEDANG NETWORK" | tee -a log-install.txt" | tee -a log-install.txt
 echo "   - Contact (Only Text)      : t.me/sshsedang" | tee -a log-install.txt" | tee -a log-install.txt
-echo ""  | tee -a log-install.txt
 echo "------------------------------------------------------------"
 echo ""
 echo "=============-[ SSH SEDANG NETWORK PRESENT ]-==============="

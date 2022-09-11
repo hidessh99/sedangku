@@ -343,11 +343,13 @@ echo ""
 echo "=============-[ SSH SEDANG NETWORK PRESENT ]-==============="
 echo -e ""
 echo ""
+echo "" | tee -a log-install.txt
 rm /root/cf.sh >/dev/null 2>&1
 rm /root/setup.sh >/dev/null 2>&1
 rm /root/insshws.sh 
 rm /root/update.sh
 secs_to_human "$(($(date +%s) - ${start}))" | tee -a log-install.txt
+echo -e "
 "
 echo -ne "[ ${yell}WARNING${NC} ] Do you want to reboot now ? (y/n)? "
 read answer

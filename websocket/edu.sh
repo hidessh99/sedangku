@@ -1,5 +1,5 @@
 #!/bin/bash
-# Proxy For Edukasi & Imclass
+# Proxy For NO TLS
 # ==========================================
 # Color
 RED='\033[0;31m'

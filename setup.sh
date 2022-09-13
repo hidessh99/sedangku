@@ -300,13 +300,14 @@ fi
 curl -sS ifconfig.me > /etc/myipvps
 
 echo " "
-echo "====================-[ SSNVPN Premium ]-===================="
+echo "=====================-[ SSNPN Premium ]-===================="
 echo ""
 echo "------------------------------------------------------------"
-echo ""  | tee -a log-install.txt
+echo ""
+echo ""
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
-echo "   - SSH Websocket           : 80 [Turn It On], 8880" | tee -a log-install.txt
+echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt
 echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
 echo "   - Stunnel4                : 447, 777" | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143" | tee -a log-install.txt
@@ -334,13 +335,15 @@ echo "   - Auto Delete Expired Account" | tee -a log-install.txt
 echo "   - Fully automatic script" | tee -a log-install.txt
 echo "   - VPS settings" | tee -a log-install.txt
 echo "   - Admin Control" | tee -a log-install.txt
-echo "   - Backup & Restore Data" | tee -a log-install.txt
+echo "   - Restore Data" | tee -a log-install.txt
 echo "   - Full Orders For Various Services" | tee -a log-install.txt
+echo ""  | tee -a log-install.txt
+echo "   >>> Contact : t.me/sshsedang (Text Only)"  | tee -a log-install.txt
 echo ""
 echo ""
 echo "------------------------------------------------------------"
 echo ""
-echo "===============-[ Script Created By SCVPN ]-==============="
+echo "===============-[ Script Created By SSNVPN ]-==============="
 echo -e ""
 echo ""
 echo "" | tee -a log-install.txt

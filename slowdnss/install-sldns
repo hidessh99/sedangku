@@ -54,8 +54,8 @@ rm -rf /etc/slowdns
 mkdir -m 777 /etc/slowdns
 wget -q -O /etc/slowdns/server.key "https://ssn.my.id/script/dnsku/slowdnss/server.key"
 wget -q -O /etc/slowdns/server.pub "https://ssn.my.id/script/dnsku/slowdnss/server.pub"
-wget -q -O /etc/slowdns/sldns-server "https://ssn.my.id/script/dnsku/slowdnss/sldns-server"
-wget -q -O /etc/slowdns/sldns-client "https://ssn.my.id/script/dnsku/slowdnss/sldns-client"
+wget -q -O /etc/slowdns/sldns-server "https://github.com/SSHSEDANG4/slowdns-client-server/raw/main/sldns-server"
+wget -q -O /etc/slowdns/sldns-client "https://github.com/SSHSEDANG4/slowdns-client-server/raw/main/sldns-client"
 cd
 chmod +x /etc/slowdns/server.key
 chmod +x /etc/slowdns/server.pub

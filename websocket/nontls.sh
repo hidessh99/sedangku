@@ -17,7 +17,7 @@ green='\e[0;32m'
 yell='\e[1;33m'
 NC='\e[0m'
 echo "SSH Websocket" | lolcat
-echo "Websocket TLS / Websocket None TLS" | lolcat
+echo "Websocket None TLS" | lolcat
 echo "Progress..." | lolcat
 sleep 3
 

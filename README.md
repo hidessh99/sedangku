@@ -14,5 +14,13 @@
 - SSH NON TLS 8880<br>
 - SLOWDNS 5300<br>
 
+# SETTING CLOUDFLARE
+- SSL/TLS : FULL<br>
+- SSL/TLS Recommender : OFF<br>
+- GRPC : ON<br>
+- WEBSOCKET : ON<br>
+- Always Use HTTPS : OFF<br>
+- UNDER ATTACK MOD : 0FF<br>
+
 # REQUEST ACCESS
 - t.me/sshsedang

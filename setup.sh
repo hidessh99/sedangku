@@ -198,8 +198,10 @@ rm dependencies.sh
 clear
 
 yellow "Add Domain for vmess/vless/trojan dll"
-echo " "
-read -rp "Input ur domain : " -e pp
+echo "-------------------------------------"
+echo "     Scipt By SSH SEDANG NETWORK"
+echo "-------------------------------------"
+read -rp "Input your domain : " -e pp
 echo "$pp" > /root/domain
 echo "$pp" > /root/scdomain
 echo "$pp" > /etc/xray/domain

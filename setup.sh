@@ -255,6 +255,8 @@ wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/backup/set-br.sh 
 clear
 wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/websocket/insshws.sh && chmod +x insshws.sh && ./insshws.sh
 clear
+wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
+clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
 wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/update/update.sh && chmod +x update.sh && ./update.sh
@@ -303,7 +305,7 @@ echo "------------------------------------------------------------"
 echo ""  | tee -a log-install.txt
 echo "   >>> Service & Port"  | tee -a log-install.txt
 echo "   - OpenSSH                 : 22"  | tee -a log-install.txt
-echo "   - SSH Websocket           : 80 [OFF]" | tee -a log-install.txt
+echo "   - SSH Websocket           : 80 [OFF], 8880" | tee -a log-install.txt
 echo "   - SSH SSL Websocket       : 443" | tee -a log-install.txt
 echo "   - Stunnel4                : 447, 777" | tee -a log-install.txt
 echo "   - Dropbear                : 109, 143" | tee -a log-install.txt

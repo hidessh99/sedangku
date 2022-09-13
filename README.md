@@ -10,6 +10,7 @@
 
 # PORT INFO
 - TROJAN 443<br>
+- SHADOWSOCKS 443<br>
 - VLESS 443<br>
 - VMESS 443<br>
 - GRPC 443<br>

@@ -28,8 +28,8 @@ chmod +x /usr/local/bin/ws-nontls
 # Installing Service
 cat > /etc/systemd/system/ws-nontls.service << END
 [Unit]
-Description=Python Proxy Mod By geovpn
-Documentation=https://t.me/geovpn
+Description=Python Proxy Mod By SSNVPN
+Documentation=https://t.me/sshsedang
 After=network.target nss-lookup.target
 
 [Service]

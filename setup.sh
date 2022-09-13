@@ -241,7 +241,7 @@ blue
 EOF
     
 #install ssh ovpn
-echo -e "$green[INFO]$NC Install SSH & OpenVPN!"
+echo -e "$green[INFO]$NC Install SSH"
 sleep 2
 clear
 wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/ssh/ssh-vpn.sh && chmod +x ssh-vpn.sh && ./ssh-vpn.sh

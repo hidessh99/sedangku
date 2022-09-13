@@ -11,14 +11,10 @@ sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=sshsedang.group
 SUB_DOMAIN=vpn-${sub}.sedang.my.id
-NS_DOMAIN=ns-${subsl}.sshsedang.my.id
+NS_DOMAIN=ns-${subsl}.sedang.my.id
 CF_ID=sshsedang@gmail.com
 CF_KEY=eaeddbd9e3cf97d4b889bd7fbae56b60bba63
-#DOMAIN=zerossl.my.id
-#SUB_DOMAIN=${sub}.zerossl.my.id
-#NS_DOMAIN=${subsl}.zerossl.my.id
-#CF_ID=djarumpentol01@gmail.com
-#CF_KEY=fef152f86c0cfc3197a097fb3f6ed3ba8a664
+
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
 echo "$NS_DOMAIN" >> /root/nsdomain
 set -euo pipefail

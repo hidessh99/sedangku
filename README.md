@@ -5,6 +5,9 @@
 # SCRIPT
 <pre><code>apt --fix-missing update && apt update && apt upgrade -y && apt install -y wget screen && wget -q https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/setup.sh && chmod +x setup.sh && screen -S setup ./setup.sh</code></pre>
 
+# TESTED ON OS 
+- DEBIAN 10
+
 # PORT INFO
 - TROJAN 443<br>
 - VLESS 443<br>

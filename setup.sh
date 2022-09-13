@@ -260,6 +260,8 @@ wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/websocket/insshws
 clear
 wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/websocket/nontls.sh && chmod +x nontls.sh && ./nontls.sh
 clear
+wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/slowdnss/install-sldns && chmod +x install-sldns && ./install-sldns
+clear
 echo -e "$green[INFO]$NC Download Extra Menu"
 sleep 2
 wget https://raw.githubusercontent.com/SSHSEDANG4/multiws/main/update/update.sh && chmod +x update.sh && ./update.sh

@@ -24,5 +24,8 @@
 - Always Use HTTPS : OFF<br>
 - UNDER ATTACK MOD : 0FF<br>
 
+# NOT WORKING VPS FROM
+- IDCLOUDHOST
+
 # REQUEST ACCESS
 - t.me/sshsedang

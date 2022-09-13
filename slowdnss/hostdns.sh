@@ -10,8 +10,8 @@ rm nsdomain
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
 DOMAIN=sshsedang.group
-SUB_DOMAIN=vpn-${sub}.sshsedang.group
-NS_DOMAIN=ns-${subsl}.sshsedang.group
+SUB_DOMAIN=vpn-${sub}.sedang.my.id
+NS_DOMAIN=ns-${subsl}.sshsedang.my.id
 CF_ID=sshsedang@gmail.com
 CF_KEY=eaeddbd9e3cf97d4b889bd7fbae56b60bba63
 #DOMAIN=zerossl.my.id

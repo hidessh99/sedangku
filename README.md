@@ -35,4 +35,4 @@
 - IDCLOUDHOST
 
 # REQUEST ACCESS
-- t.me/sshsedang
+- https://t.me/sshsedang
